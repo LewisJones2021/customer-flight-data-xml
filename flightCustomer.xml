@@ -1,0 +1,32 @@
+<!-- Link to the XSLT stylesheet -->
+<?xml-stylesheet type = "text/xsl" href = "flightCustomerStyles.xsl"?>
+
+ <!-- This is the customerData element containing customer data -->
+<customerData>
+ <!-- First customer data -->
+    <customer>
+        <customerName> John Smith </customerName>
+        <dateOfBirth> 07/23/1908 </dateOfBirth>
+        <flightNumber> 878794548589 </flightNumber>
+        <destination> Sweden </destination>
+         <departingFrom> London Gatwick </departingFrom>
+        </customer>
+
+ <!-- Second customer data -->
+    <customer>
+        <customerName>  Alex James</customerName>
+        <dateOfBirth> 07/12/1308 </dateOfBirth>
+        <flightNumber> 878323233232 </flightNumber>
+        <destination> Spain </destination>
+         <departingFrom> London Heathrow </departingFrom>
+        </customer>
+
+ <!-- Third customer data -->
+    <customer>
+        <customerName> Zane Wait</customerName>
+        <dateOfBirth> 09/21/1912</dateOfBirth>
+        <flightNumber> 878723235485 </flightNumber>
+        <destination> Australia </destination>
+         <departingFrom> London Luton</departingFrom>
+        </customer>
+</customerData>
